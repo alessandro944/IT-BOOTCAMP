@@ -1,0 +1,34 @@
+.crveni_paragraf {
+  color: red;
+}
+.desno_poravnanje {
+  text-align: right;
+}
+.drugi, #treci {
+  color:red;
+}
+li {
+  color: green;
+}
+.kurs {
+  color: blue;
+}
+/*selektovati sve paragrafe unutar div elementa, radi se o kombinatorima*/
+div p {
+  text-decoration: underline;
+}
+/*mozemo selektovati i klasu nekog paragraf, ali samo se selektuju klase koje se nalaze unutar diva*/
+div .podparagraf {
+  font-weight: bold;
+
+}
+/*znak vece selektuje samo direktne potomke,samo decu ili prvo koleno, tj sve unutar divizije samo*/
+#divizija>p {
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+}
+/* ovo znaci da selektuje svaki treci potomak, 3n znaci svi brojevi koji su deljivi sa 3, takodje moze i za deljive i nedeljive brojeve koristeci odd i even u zagradi gde je 3*/ 
+ol li:nth-child(3n) {
+  color: red;
+
+}

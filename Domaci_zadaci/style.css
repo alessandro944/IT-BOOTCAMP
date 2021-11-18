@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(192, 164, 151);
+}
+#hero_section2 {
+  margin-top: 50px;
+}
+#hero_section3 {
+  margin-top: 35px;
+  padding-bottom: 35px;
+}
+#hero_section3 hr {
+  margin-bottom: 30px;
+  color: black;
+}
+#hero_section4 {
+  margin-top: 35px;
+}
+#hero_section4 hr {
+  margin-top: 35px;
+}
+#hero_section2 p a:hover {
+  color: yellow;
+}
+#hero_section5 h2 {
+  color: brown;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 25px 0 25px 0;
+}
+#hero_section5 h2:hover {
+  color: yellow;
+}
+#hero_section5 .slike {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.slike {
+  padding-bottom: 15px;
+}
+.slike a {
+  width: 80px;
+  vertical-align: middle;
+  margin: 100px;
+}
+.slike a img {
+  width: inherit;
+  height: inherit;
+  border:black 3px double;
+}
+
+

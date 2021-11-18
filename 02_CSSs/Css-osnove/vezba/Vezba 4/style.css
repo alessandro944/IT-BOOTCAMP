@@ -1,0 +1,24 @@
+body {
+  background-color: whitesmoke;
+}
+h2 {
+  color: black;
+  
+}
+img {
+  border: red 3px double;
+}
+.default {
+  color: black;
+  font-size: 17px;
+  font-family: serif;
+}
+.element {
+  color: blue;
+}
+.element a {
+  color: red;
+}
+.element a:hover {
+  color: green;
+} 
