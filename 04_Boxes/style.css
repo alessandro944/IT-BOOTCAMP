@@ -1,0 +1,16 @@
+/*
+p {
+  border-style: dashed;
+  border-color: yellow;
+  border-width: 3px;
+  
+}*/
+p {
+  border: 4px dashed red;
+  
+  margin: 50px 20px 10px 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 300px;
+  height: 100px;
+}

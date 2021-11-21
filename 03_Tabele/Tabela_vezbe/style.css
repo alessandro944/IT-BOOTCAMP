@@ -1,0 +1,25 @@
+table {
+  border: 1px black solid;
+}
+table tr td{
+  border: 1px black solid;
+}
+table th {
+  border: 1px black solid;
+}
+#druga_kolona {
+  background-color: yellow;
+}
+.tabela {
+  background-color: yellow;
+}
+#hero_section tr :nth-child(odd) {
+  font-style: italic;
+}
+
+#hero tr:nth-child(2):hover{
+  background-color: red !important;
+}
+#hero  tr:nth-child(4):hover {
+  background-color: red !important;
+}

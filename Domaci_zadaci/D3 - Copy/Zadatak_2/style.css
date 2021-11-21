@@ -1,0 +1,51 @@
+#hero_section {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.slika_jedan {
+ width: 30%; 
+ display: inline-block;
+ padding-left: 80px;
+ padding-top: 70px;
+ 
+}
+.slika_jedan img {
+  width: 350px;
+  height: 250px;
+}
+.slika_jedan h3 {
+  text-align: center;
+}
+.slika_dva {
+  width: 30%;
+  display: inline-block;
+}
+.slika_dva img {
+  width: 350px;
+  height: 250px;
+}
+.slika_dva h3 {
+  text-align: center;
+}
+.slika_tri {
+  width: 30%;
+  display: inline-block;
+  height: 100%;
+}
+.slika_tri img {
+  width: 350px;
+  height: 250px;
+}
+.slika_tri h3 {
+  text-align: center;
+}
+#footer {
+  margin-top: 50px;
+}
+#footer h1 {
+  padding-left: 70px;
+}
+#footer .paragraf {
+  padding-left: 70px;
+}
