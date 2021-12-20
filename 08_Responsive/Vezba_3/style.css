@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#body {
+  width: 100%;
+  height: 100%;
+}
+.content h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: aqua;
+}
+#menu {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.menu_jedan {
+  width: 30%;
+  display: inline-block;
+  padding: 0;
+}
+
+.menu_jedan ul li {
+  width: 100%;
+  height: auto;
+  background-color: blue;
+}
+#paragraf {
+  width: 69%;
+  display: inline-block;
+  background-color: cadetblue;
+  padding: 0;
+}

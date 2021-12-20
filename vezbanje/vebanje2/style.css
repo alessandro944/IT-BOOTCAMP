@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  position: fixed;
+  top: 0;
+  
+  width: 100%;
+}
+[class*="col-"] {
+  float: left;
+  width: 25%;
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  
+
+}
+.submenu {
+  display: none;
+}
+.submenu li {
+  padding: 10px;
+}
+.row ul li:hover .submenu {
+  display: block;
+}
+@

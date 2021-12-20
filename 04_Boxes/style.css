@@ -5,12 +5,21 @@ p {
   border-width: 3px;
   
 }*/
-p {
-  border: 4px dashed red;
-  
-  margin: 50px 20px 10px 5px;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  width: 300px;
-  height: 100px;
+
+span {
+  box-sizing: border-box;
+  border: 8px solid black;
+  padding: 80px;
+  width: 25%;
+  height: 250px;
+  display: inline-block;
+  margin: 10%;
+  border-style: dashed;
+  border-width: 10px solid blue;
+  border-radius: 15px;
+  display: flex;
+}
+body {
+  margin: 0;
+  padding: 0;
 }

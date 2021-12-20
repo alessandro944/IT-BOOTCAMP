@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+   document.write("<p>Zdravo svete</p>");
+  </script>
+  <h1>
+    Uvodni JS
+  </h1>
+  <p id="p1">
+    Uvod u JavaScript
+  </p>
+  <script>
+  
+    window.alert("Hello world");
+    alert ("Zdravo svete!");
+    document.write ("Hello world!");
+    console.log("Zdravo svete u konzoli!");
+    document.getElementById("p1").innerHTML = "Izmenjen sadrzaj paragrafa preko JS-a";
+    console.log(5);
+    console.log(-9.81);
+    console.log(5+3);
+    console.log("5" + "3");
+    /*Nema sabiranja stringova i brojeva*/
+    console.log('Zdravo');
+    /*I ovo je string, moze se sa jednostrukim navodima pisati*/
+    console.log("It's alright");
+    console.log(true);
+    console.log(false);
+
+    /*Promenljive*/
+    let x; /*deklaracija promenljive*/
+    x= 3;/*dodela vrednosti*/
+    console.log(x);
+    x = "Stefan";
+    console.log(x);
+
+    let y = false;
+    console.log(y);
+    console.log(x, y); /*moze vise promenljivih u konzoli*/
+  /*Konstante*/
+
+  const z = 0;
+  console.log(z);
+  y = 6 + z;
+  console.log(y); //y = 6
+  const p;
+  p = 9; 
+  /*ne moze ovako, mora da se deklarise u istoj liniji, tj, mora odmah vrednost da se dodeli*/
+
+/*Undefined and Null*/
+  let = age;
+  console.log(age, age + 3);//undefined, NaN-(not a number)
+  let age2 = null; 
+  console.log (age2, age2 + 3);/*null je vrednost koja znaci odsustvo vrednosti ili prazna vrednost, a kada Null sabiramo sa 3, dobijamo tri*/
+  
+
+
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

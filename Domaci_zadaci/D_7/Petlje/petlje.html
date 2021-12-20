@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    span {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding-top: 7px;
+    
+    }
+    .belo span:nth-child(even) {
+    color:white;
+    background-color:black;
+  }
+  
+.crno span:nth-child(odd) {
+  color:white;
+  background-color: black;
+}
+.purple {
+  color: purple;
+}
+  </style>
+</head>
+<body>
+  <ul>
+    <li>Еlement 1</li>
+    <li>Еlement 2
+        <ul>
+          <li class="purple">Element 3</li>
+        </ul>
+    </li>
+    <li>Element 4</li>
+    <li>Element 5
+        <ul>
+            <li class="purple">Element 6</li>
+        </ul>
+    </li>
+    <li>Element 7</li>
+    <li>Element 8
+        <ul>
+            <li class="purple">Element 9</li>
+        </ul>
+    </li>
+    <li>Element 10</li>
+</ul>
+
+
+  
+  <script src="petlje.js"></script>
+</body>
+</html>

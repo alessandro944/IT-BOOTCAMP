@@ -1,0 +1,62 @@
+body {
+  height: auto;
+}
+#header{
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  font-size: 2rem;
+  padding-left: 160px;
+}
+p {
+  text-align: center;
+  width: 90%;
+  text-align: left;
+  margin-left: 150px;
+}
+#slike {
+  width: 900px;
+  height: auto;
+  display: inline-block;
+  margin-left: 150px;
+}
+#slike td {
+  width: 100px;
+  padding: 0px;
+}
+#slike img {
+  width: 250px;
+  height: auto;
+  padding: 0px;
+  vertical-align: middle;
+}
+.bold_tekst {
+ width: 200px;
+ padding-top: 30px;
+}
+.bold_tekst  b{
+  font-size: 2rem;
+  margin-left: 147px;
+}
+.last_section {
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-left: 150px;
+}
+#footer {
+  width: 400px;
+  display: inline-block;
+  padding-left: 148px;
+  padding-top: 20px;
+}
+#footer img {
+  width: 100px;
+}
+#footer td{
+ width: 250px;
+}
+#slika_jedan {
+  width: 80px;
+}
+  
+  

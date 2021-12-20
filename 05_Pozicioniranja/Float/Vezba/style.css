@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 1500px;
+}
+.topbar {
+  background-color: cadetblue;
+  width: 100%;
+  top: 0;
+  padding-left: 0;
+  position: fixed;
+ }
+ nav ul {
+   padding: 0;
+ }
+.topbar li {
+  position: relative;
+  background-color: cadetblue;
+  float: left;
+  width: 25%;
+  list-style: none;
+  border-right: 1px solid white;
+  padding-left: 0;
+  text-align: center;
+  
+}
+.topbar li a {
+  color: black;
+  text-decoration: none;
+}
+.topbar ul li:hover {
+  background-color: red;
+}

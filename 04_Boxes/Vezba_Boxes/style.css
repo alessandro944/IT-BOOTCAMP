@@ -1,6 +1,22 @@
-span {
-  border: 2px solid black;
-  margin: 0;
-  width: 400px;
-  height: 250px;
+.prvidiv{
+  background-color: blue;
+
+}
+.drugidiv {
+  background-color: chocolate;
+}
+.trecidiv {
+  background-color: crimson;
+}
+.cetvrtidiv {
+  background-color: darkmagenta;
+}
+#container {
+  background-color: silver;
+  display: flex; 
+  
+}
+#container div {
+  display: inline-block;
+ 
 }

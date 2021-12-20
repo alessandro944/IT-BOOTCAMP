@@ -1,0 +1,28 @@
+#div1 {
+  width: 250px;
+  height: 250px;
+  background-color: chocolate;
+  margin: 100px;
+  /*position:relative; (relativno u odnosu na poziciju koju inace ima, tj. gde se nalazi, pa gledamo da ga pomeramo u odnosu na tu pozicij koju on ima po difoltu  i nista se ne desava ako stavimo samo position:relative; on radi samo kad koristimo top,left , top ,right*/
+  /*position: absoulet; (pozicionira se u odnosu na prvog parent elementa koji ima podesenu poziciju, i najbolje je da pozicioniras kad ima svoj parent element, npr kada bi sada bio paragraf u divu;)*/
+  position:fixed; /*positin:fixed; (fiksno u odnosu na bilo koji pogled na stranici, ili bilo koje dimenzije browsera, i kada skrolass, on je na istom mestu)*/
+  /*Sto je veci z-index onda je blize tebe. tj nalazi se preko nekog drugog elementa koji ima manji z-index*/
+  /*nav bar , moze se podesiti visina*/
+  
+  top: 80px;
+  left: 200px;
+}
+#div1 p {
+  position: absolute;
+  padding: 0;
+  margin: 100px;
+  bottom: 0;
+
+}
+body {
+  height: 2000px;
+}
+h1 {
+  z-index: 2;
+  position: relative;
+}

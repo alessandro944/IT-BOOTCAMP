@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#row {
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+}
+#row .col-4:hover {
+  background-color: yellow;
+
+}
+#row .col-4 a {
+  text-decoration: none;
+  color: white;
+}
+#row .col-4 ul  {
+  display: none;
+}
+
+#row .col-4:hover ul  {
+  display: block;
+}
+[class*="col-"] {
+ float: left;
+}
+#row .col-4 {
+  color: white;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+
+/*form {
+  margin-top: 50px;
+}
+
+fieldset p input  {
+  margin: 10px;
+  
+}
+fieldset label {
+  padding-right: 40px;
+}
+.slike {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+
+  
+}
+
+
+
+table {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.slike tr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.slike td {
+  width: 24%;
+  padding: 0;
+  margin:0;
+}
+tr th h1 {
+  
+  padding: 50px 0px;
+}
+th h3 {
+  margin-left: 150px;
+  width: 100%;
+}
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+#footer td {
+  width: 24%;
+  padding: 0px 5px;
+}*/
